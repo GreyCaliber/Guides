@@ -1339,6 +1339,10 @@ input, select, textarea {
 
 /* Tables */
 
+table, th, td {
+	border: 1px solid black;
+  }
+  
 	table {
 		width: 100%;
 	}
@@ -1348,7 +1352,7 @@ input, select, textarea {
 		}
 
 			table.default tr {
-				border-top: solid 1px #eee;
+				border-top: solid 1p black;
 			}
 
 				table.default tr:first-child {
