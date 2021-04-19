@@ -4,6 +4,14 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+if (prefersDarkScheme.matches) {
+  document.body.classList.add("dark-theme");
+} else {
+  document.body.classList.remove("dark-theme");
+}
+
 (function($) {
 
 	var	$window = $(window),

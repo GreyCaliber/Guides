@@ -39,6 +39,17 @@
 	}
   }
 
+  body.dark-theme {
+	background: #121212;
+  }
+  body.dark-theme h1,
+  body.dark-theme p {
+	color: #eee;
+  }
+  body.dark-theme a {
+	color: #809fff;
+  }
+
 /* End Gibberish */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
