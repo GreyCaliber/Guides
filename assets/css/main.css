@@ -27,6 +27,18 @@
 	
   }
 
+  
+  @media (prefers-color-scheme: dark) {
+	body {
+	  color: #eee;
+	  background: #121212;
+	}
+  
+	body a {
+	  color: #809fff;
+	}
+  }
+
 /* End Gibberish */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
