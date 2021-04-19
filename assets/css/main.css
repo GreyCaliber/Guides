@@ -28,27 +28,6 @@
   }
 
   
-  @media (prefers-color-scheme: dark) {
-	body {
-	  color: #eee;
-	  background: #121212;
-	}
-  
-	body a {
-	  color: #809fff;
-	}
-  }
-
-  body.dark-theme {
-	background: #121212;
-  }
-  body.dark-theme h1,
-  body.dark-theme p {
-	color: #eee;
-  }
-  body.dark-theme a {
-	color: #809fff;
-  }
 
 /* End Gibberish */
 html, body, div, span, applet, object,
@@ -76,6 +55,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+
 
 ol, ul {
 	list-style: none;
@@ -152,6 +133,8 @@ input, select, textarea {
 		font-size: 11pt;
 		line-height: 1.85em;
 	}
+
+	
 
 	a {
 		color: inherit;
