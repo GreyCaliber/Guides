@@ -27,11 +27,18 @@
 	
   }
 
+<<<<<<< Updated upstream
 p {
 	  color:rgb(52, 52, 59)
   }
 
 
+=======
+  p {
+	  color:rgb(11, 11, 12)
+  }
+
+>>>>>>> Stashed changes
   
 
 /* End Gibberish */
@@ -154,7 +161,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		font-weight: 800;
 		letter-spacing: 0.04em;
-		color: #404248;
+		color: #2f3035;
 		margin: 0 0 1em 0;
 	}
 
